@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    font-family: main_font_thin;
+    transition: ease-in-out;
+}
+
+.container{
+    background-image: url(../../img/team__.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 3%;
+    width: 100%;
+}
+
+.content{
+    background-color: rgb(253, 253, 253, .8);
+    border-radius: 30px;
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    width: 50%;
+    text-align: center;
+}
+
+.container-text{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 2em;
+    font-family: main_font_titles;
+}
+
+h2{
+    font-size: 1.5em;
+    font-family: main_font_titles;
+}
+
+span{
+    font-size: 1.2em;
+    font-family: main_font_titles;
+    color: black;
+}
+
+@font-face{
+	font-family: main_font_thin;
+	src: url("../../fonts/Montserrat/Montserrat-Thin.ttf");
+}
+
+@font-face{
+	font-family: main_font_medium;
+	src: url("../../fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face{
+	font-family: main_font_titles;
+	src: url("../../fonts/Montserrat/Montserrat-Regular.ttf");
+}

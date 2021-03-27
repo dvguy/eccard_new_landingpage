@@ -1,0 +1,552 @@
+/*box-sizing:border-box*/
+body{
+    font-family: main_font_titles;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.background{
+    /*padding: 20rem; COMENTAR DESPUES */
+    background-repeat: no-repeat;
+    background: url("../../img/background.jpg");
+    background-size: cover;
+    background-position: bottom right;
+    padding-top: 9rem; 
+}
+
+.background-description{
+    background-repeat: no-repeat;
+    background: url("../../img/finger_background.jpg");
+    background-position: center right;
+    padding: 2% 0 2%;
+}
+
+.background-features{
+    background-color: #6F7281;
+}
+
+.background-footer{
+    background-color: #000000;
+}
+
+.background-phrase{
+    background-color: rgb(190, 190, 190);
+    padding: 2% 0 2%;
+}
+
+.background-video{
+    /*padding: 20rem; COMENTAR DESPUES */
+    background-color: #eeeeeee1;
+    padding: 4.5% 0 4.5%;
+}
+
+.btn-account-new{
+    background-color: #578D6F;
+    border:none;
+    border-radius: 30px;
+    color:#fff; 
+    cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    height: 30px;
+    margin: 10px auto;
+    margin-bottom: 5.2%;
+    width: 100%;
+}
+
+.btn-features{
+    background-color: #234463;;
+    grid-area: btn-features;
+    border:none;
+    border-radius: 30px;
+    color:#fff; 
+    cursor: pointer;
+    display: block;
+    font-size: 2rem;
+    height: 32%;
+    margin: 4% auto;
+    margin-bottom: 5.2%;
+    width: 100%;
+}
+
+.btn-start{
+    background-color: #234463;
+    border:none;
+    border-radius: 30px;
+    color:#fff; 
+    cursor: pointer;
+    display: block;
+    font-size: 1.7rem;
+    grid-area: btn-start;
+    height: 35%;
+    width: 75%;
+}
+
+
+.btn-start-footer{
+    background-color: #f50b0b;
+    border:none;
+    border-radius: 30px;
+    grid-area: btn-start-footer;
+    height: 44%;
+    width: 40%;
+    color: white;
+    font-size: 1.7rem;
+    cursor:pointer
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    grid-template-rows: 1fr 0.2fr;
+    grid-template-areas: 
+        "first-span-paragraph form"
+        "btn-start form";
+    margin: 0 auto;
+    max-width: 1600px; /*<----MOVER ESTO Y EL DE ABAJO PARA AJUSTAR PANTALLA*/
+    width: 95%;
+}
+
+.container-description{
+    display: grid;
+    grid-template-columns: 1fr 0.2fr;
+    grid-template-rows: 0.7fr 0.5fr 1fr 0.7fr 1fr;
+    grid-template-areas: 
+        "title title"
+        "span0 span0"
+        "span1 span1"
+        "title2 title2"
+        "span2 span2";
+    margin: 0 auto;
+    max-width: 1600px; /*<----MOVER ESTO Y EL DE ABAJO PARA AJUSTAR PANTALLA*/
+    width: 95%;
+}
+
+.container-footer{
+    display: grid;
+    grid-template-columns: 0.5fr 0.7fr 0.5fr 0.3fr 1fr;
+    grid-template-rows: 0fr 0.3fr;
+    grid-template-areas: 
+    "icon-footer   h1-footer-1   h1-footer-2   h1-footer-3   h1-footer-3"
+    "icon-footer   li-contact    li-account    icon-twitter   icon-linkedin";
+    margin-left: 10%;
+    max-width: 1600px; /*<----MOVER ESTO Y EL DE ABAJO PARA AJUSTAR PANTALLA*/
+    width: 95%;
+}
+
+.container-footer h1{
+    font-size: 1.5em;
+}
+
+/*GRID OF FOOTER FOR SAKE OF ORDER*/
+
+.h1-footer-1{
+    grid-area: h1-footer-1;
+    color: white;
+}
+
+.h1-footer-2{
+    grid-area: h1-footer-2;
+    color: white;
+}
+
+.h1-footer-3{
+    grid-area: h1-footer-3;
+    color: white;
+}
+
+.icon-footer{
+    grid-area: icon-footer;
+    width: 65%;
+    padding-top: 30%;
+}
+
+.icon-linkedin{
+    grid-area: icon-linkedin;
+    padding-top: 1%;
+    width: 20%;
+}
+
+.icon-twitter{
+    grid-area: icon-twitter;
+    width: 77%;
+}
+
+.li-account{
+    grid-area: li-account;
+}
+
+.li-contact{
+    grid-area: li-contact;
+}
+
+
+/*GRID OF FOOTER FOR SAKE OF ORDER*/
+
+
+
+.container_header{
+    width: 95%;
+    color: #55949C;
+    margin: 0 auto;
+    max-width: 1600px
+}
+
+.container_header p {
+    font-size: 3em;
+    font-family: alternative;
+    padding-left: 1%;
+    margin-right: auto;
+    margin-bottom: -1%;
+    margin-top: 4%;
+}
+
+.container-phrase{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.6fr 1fr;
+    grid-template-areas:
+        "btn-start-footer btn-start-footer"
+        "sixth-span sixth-span";
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 95%;
+}
+
+.container-video{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    grid-template-rows: 1fr 0.3fr;
+    grid-template-areas: 
+        "video-eccard second-span-paragraph"
+        "video-eccard stars";
+    margin: 0 auto;
+    max-width: 1600px; /*<----MOVER ESTO Y EL DE ABAJO PARA AJUSTAR PANTALLA*/
+    width: 95%;
+}
+
+.container-features{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "head-features head-features head-features head-features"
+        "icon-card text-card icon-world text-world"
+        "icon-pdf text-pdf icon-video text-video"
+        "icon-qr text-qr btn-features btn-features"
+        "p p p p";
+    margin: 0 auto;
+    max-width: 1600px; /*<----MOVER ESTO Y EL DE ABAJO PARA AJUSTAR PANTALLA*/
+    width: 95%;
+
+}
+
+.container-features p{
+    font-size: 2rem;
+    grid-area: p;
+    margin: auto;
+    margin-top: -2%;
+    padding: 1% 0 3%;
+}
+
+
+.fifth-span-paragraph{
+    width: 53%;
+    color: white;
+    font-family: main_font_medium;
+    text-align: left;
+    line-height: 150%;
+    font-size: 1.5em;
+    grid-area: span0;
+}
+
+.first-span-paragraph{
+    font-size: 3.2em; /*<--CAMBIARLO EN LOS MEDIAQUERYS EN EL VW DE IPAD 780*/
+    grid-area: first-span-paragraph;
+    line-height: 150%;
+}
+
+form{
+    background:rgb(253, 253, 253, .8);
+    width: 80%;
+    padding: 10px 0;
+    border-radius: 40px;
+    margin-left: auto;
+    grid-area: form;
+    margin-bottom: 2%;
+}
+
+form p{
+    color: black;
+    text-align: center;
+}
+
+.form-div{
+    width: 92%;
+    margin: 0 auto;
+}
+
+.footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .footer ul li{
+        font-family: main_font_thin;
+        font-size: 1em;
+        padding: 0.5rem 0;
+    }
+
+        .footer ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+.fourth-span-paragraph{
+    color: white;
+    font-family: main_font_medium;
+    text-align: left;
+    line-height: 150%;
+    font-size: 1.5em;
+    grid-area: span2;
+    width: 58%;
+}
+
+h1{
+    color: black;
+    font-size: 2.5em;
+}
+
+.h1-description-1{
+    color: white;
+    font-family: main_font_titles;
+    grid-area: title;
+}
+
+.h1-description-2{
+    margin-top: 4%;
+    color: white;
+    font-family: main_font_titles;
+    grid-area: title2;
+}
+
+.header{
+    position: fixed;
+    width: 100vw;
+    background-color: rgb(0,0,0,.7);
+    padding: .5rem 0;
+}
+
+    .header a{
+        text-decoration: none;
+        color: white;
+    }
+
+.head-features{
+    border-bottom: 1px solid black;
+    grid-area: head-features;
+    font-family: 'main_font_titles';
+    font-size: 4rem;
+    padding: 2% 0;
+}
+
+.icon-card{
+    grid-area: icon-card;
+    width: 88%;
+}
+
+.icon-pdf{
+    grid-area: icon-pdf;
+    width: 88%;
+}
+
+.icon-qr{
+    grid-area: icon-qr;
+    width: 88%;
+}
+
+.icon-video{
+    grid-area: icon-video;
+    width: 88%;
+}
+
+.icon-world{
+    padding-top: 6%;
+    grid-area: icon-world;
+    width: 85%;
+}
+
+input{
+    color:#c6c6c6;
+    width: 100%;
+    border:none;
+    resize: none;
+    border-radius: 30px;
+    height: 3vh;
+}
+
+    input:focus{
+        outline: none;
+    }
+
+label{
+    color: black;
+    font-size: 1.2em;
+}
+
+.logo{ /*REVISAR PARA RESPONCIVE SE VE MUY CHICO*/
+    width: 7rem;
+    height: 7rem;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegation ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .navegation ul li{
+        display: inline-block;
+    }
+
+        .navegation ul li a{
+            font-family: main_font_titles;
+            font-size: 4em;
+            display: block;
+            padding: 0.5rem 1rem;
+        }
+
+.second-span-paragraph{
+    color: black;
+    grid-area: second-span-paragraph;
+    font-size: 2rem;
+    line-height: 150%;
+}
+
+/*QUIZA PUEDA BORRAR ESTOS SECTION*/
+
+
+.section-features{
+    width: 100vw; /**REVISAR ESTO PARA RESPONSIVE**/
+    height: 100%; /**REVISAR ESTO PARA RESPONSIVE**/
+    color: white;
+}
+
+.section-footer{
+    width: 100vw; /**REVISAR ESTO PARA RESPONSIVE**/
+    height: 100%; /**REVISAR ESTO PARA RESPONSIVE**/
+    color: white;
+}
+
+.section-description{
+    width: 100vw; /**REVISAR ESTO PARA RESPONSIVE**/
+    height: 100%; /**REVISAR ESTO PARA RESPONSIVE**/
+    color: white;
+}
+
+.section-presentation{
+    width: 100vw; /**REVISAR ESTO PARA RESPONSIVE**/
+    height: 100%; /**REVISAR ESTO PARA RESPONSIVE**/
+    color: white;
+}
+
+.section-phrase{
+    width: 100vw; /**REVISAR ESTO PARA RESPONSIVE**/
+    height: 100%; /**REVISAR ESTO PARA RESPONSIVE**/
+    color: white;
+}
+
+.section-video{
+    width: 100vw; /**REVISAR ESTO PARA RESPONSIVE**/
+    height: 100%; /**REVISAR ESTO PARA RESPONSIVE**/
+    color: white;
+}
+
+.sixth-span{
+    color: black;
+    font-size: 3.5rem;
+    grid-area: sixth-span;
+}
+
+.sixth-span-inside{
+    color: blue;
+}
+
+.stars{
+    grid-area: stars;
+    width: 50%;
+    padding: 2% 0 0;
+}
+
+.text-card{
+    font-size: 2em;
+    grid-area: text-card;
+    padding-top: 2%;
+}
+
+.text-pdf{
+    font-size: 2em;
+    grid-area: text-pdf;
+    padding-top: 2%;
+}
+
+.text-video{
+    font-size: 2em;
+    grid-area: text-video;
+    padding-top: 5.5%;
+}
+
+.text-world{
+    font-size: 2em;
+    grid-area: text-world;
+    padding-top: 2%;
+}
+
+.text-qr{
+    font-size: 2em;
+    grid-area: text-qr;
+    padding-top: 5.5%;
+}
+
+.third-span-paragraph{
+    color: white;
+    font-family: main_font_medium;
+    text-align: left;
+    line-height: 150%;
+    font-size: 1.5em;
+    grid-area: span1;
+    width: 63%;
+}
+
+.video-eccard{
+    grid-area: video-eccard;
+    padding-right: 10%;
+}
+
+@font-face{
+	font-family: main_font_thin;
+	src: url("../../fonts/Montserrat/Montserrat-Thin.ttf");
+}
+
+@font-face{
+	font-family: main_font_medium;
+	src: url("../../fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+@font-face{
+	font-family: main_font_titles;
+	src: url("../../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face{
+	font-family: alternative;
+	src: url("../../fonts/Great_Vibes/GreatVibes-Regular.ttf");
+}
