@@ -9,7 +9,7 @@ a{
     transition: ease-in-out;
 }
 
-.container{
+.container_about{
     background-image: url(../../img/team__.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +18,7 @@ a{
     width: 100%;
 }
 
-.content{
+.content_about{
     background-color: rgb(253, 253, 253, .8);
     border-radius: 30px;
     margin: 0 auto;
@@ -28,7 +28,7 @@ a{
     text-align: center;
 }
 
-.container-text{
+.container-text_about{
     width: 80%;
     margin: 0 auto;
 }

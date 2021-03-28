@@ -8,7 +8,7 @@ body{
     overflow-x: hidden;
 }
 
-.background{
+.background_singIn{
     background-repeat: no-repeat;
     background: url("../../img/background.jpg");
     background-size: cover;
@@ -18,7 +18,7 @@ body{
     width: 100%;
 }
 
-.btn{
+.btn_singIn{
     background-color: #578D6F;
     border:none;
     border-radius: 30px;
@@ -32,7 +32,7 @@ body{
     width: 100%;
 }
 
-.container{
+.container_singIn{
     padding: 9rem;
     padding-top: 5rem;
     width: 81%;
@@ -44,11 +44,11 @@ body{
     margin: 0 auto;
 }
 
-.form_{
+.form_singIn{
     grid-area: form;
 }
 
-.form-div{
+.form-div-singIn{
     background-color: rgb(253, 253, 253, .8);
     border-radius: 30px;
     font-family: main_font_medium;
@@ -65,12 +65,12 @@ h1{
     font-size: 3rem;
 }
 
-.icon_{
+.icon_singIn{
     grid-area: icon;
     width: 50%;
 }
 
-.icon_container{
+.icon_container_singIn{
     grid-area: icon_container;
 }
 
@@ -83,22 +83,23 @@ input{
     height: 3.5vh;
     box-sizing: border-box;
     padding-left: 3%;
+    outline: none;
 }
 
 label{
     font-size: 2em;
 }
 
-.fp{
+.fp_singIn{
     display: inline-block;
 }
 
-.sing{
+.sing_{
     display: inline-block;
     float: right;
 }
 
-.terms{
+.terms_singIn{
     text-align: center;
 }
 @font-face{
