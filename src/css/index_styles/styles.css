@@ -96,7 +96,7 @@ body{
 }
 
 
-.container{
+.container_index{
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     grid-template-rows: 1fr 0.2fr;
@@ -341,7 +341,7 @@ h1{
 
     .header a{
         text-decoration: none;
-        color: white;
+        color: white !important;
     }
 
 .head-features{
