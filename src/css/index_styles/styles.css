@@ -385,6 +385,8 @@ input{
     resize: none;
     border-radius: 30px;
     height: 3vh;
+    box-sizing: border-box;
+    padding-left: 3%;
 }
 
     input:focus{
