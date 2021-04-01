@@ -37,21 +37,6 @@ body{
     padding: 4.5% 0 4.5%;
 }
 
-.buttn-account-new{
-    background-color: #578D6F;
-    border:none;
-    border-radius: 30px;
-    color:#fff; 
-    cursor: pointer;
-    display: block;
-    font-size: 1.5rem;
-    height: 30px;
-    margin: 10px auto;
-    margin-bottom: 5.2%;
-    width: 100%;
-    outline: none;
-}
-
 .buttn-features{
     background-color: #234463;;
     grid-area: btn-features;
@@ -528,6 +513,69 @@ label{
     padding-right: 10%;
 }
 
+/******************************************AQUI SE HICIERON CAMBIOS*****************************************/
+
+/***********************************************************************************************************/
+
+.buttn-account-new{
+    background-color: #578D6F;
+    border:none;
+    border-radius: 30px;
+    color:#fff; 
+    cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    height: 30px;
+    margin: 10px auto;
+    width: 100%;
+    outline: none;
+}
+
+.buttn-twitter{
+    background-color: #03a9f4;
+    border:none;
+    border-radius: 30px;
+    color:#fff; 
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    height: 7.5vh;
+    max-height: 30px;
+    margin: 10px auto;
+    margin-bottom: 5.2%;
+    margin-left: 0.3%;
+    width: 49%;
+    outline: none;
+}
+
+.buttn-linkedin{
+    background-color: #0288d1;
+    border:none;
+    border-radius: 30px;
+    color:#fff; 
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    height: 30px;
+    margin: 10px auto;
+    margin-bottom: 5.2%;
+    width: 49%;
+    outline: none;
+}
+
+.icon-twitter-in-button{
+    margin-top: -1.2%;
+    min-width: 30px;
+    width: 12.1%;
+}
+
+.icon-linkedin-in-button{
+    margin-top: -1.2%;
+    min-width: 30px;
+    width: 11.8%;
+}
+
+/***********************************************************************************************************/
 
 
 @media screen and (max-width: 770px){
