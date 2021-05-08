@@ -7,4 +7,4 @@ Is a responsive desing that uses:
 - CSS - GRID
 - JAVASCRIPT
 
-######You can see this repository online by clicking [here](https://dvguy.github.io/eccard_new_landingpage/) or in production at www.eccard.com
+#####You can see this repository online by clicking [here](https://dvguy.github.io/eccard_new_landingpage/) or in production at www.eccard.com
